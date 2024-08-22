@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIYONGA STANLEY EKAI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-image {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .skills ul, .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .projects li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 5px solid #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            margin-top: 10px;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bridging Science, Data, and Design</h1>
+    <p>A Multi-Disciplinary Expert in Biotechnology, Data Analysis, and Digital Solutions</p>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="file:///C:/Users/Admin/Downloads/WhatsApp%20Image%202024-05-16%20at%205.12.15%20PM.jpeg" alt="Profile Image" class="profile-image">
+        <p>With a background in Biotechnology and extensive experience in Data Analysis, Project Management, Web Development, and Graphic Design, I bring a multi-faceted approach to solving complex challenges. My career journey has taken me from research labs to the tech space, where I’ve developed a unique ability to integrate science, technology, and design. I thrive in environments that demand creativity, analytical rigor, and strategic thinking.</p>
+        <p>My goal is to leverage my diverse skill set to drive innovation in biotech, enhance data-driven decision-making, and create user-centered digital experiences.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Biotechnology:</strong> Molecular Biology, Genetic Engineering, Bioinformatics</li>
+            <li><strong>Data Analysis:</strong> Python, R, SQL, Data Visualization, Statistical Analysis</li>
+            <li><strong>Project Management:</strong> Agile methodologies, Task automation, Team leadership, Risk management</li>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, Responsive Design, WordPress</li>
+            <li><strong>Graphic Design:</strong> Adobe Creative Suite (Photoshop, Illustrator, InDesign), Branding, UX/UI Design</li>
+            <li><strong>Soft Skills:</strong> Strategic thinking, Problem-solving, Cross-disciplinary collaboration, Communication, Innovation</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <strong>Title:</strong> CRISPR-Cas9 Gene Editing Research<br>
+                <strong>Description:</strong> Led a research project focused on optimizing CRISPR-Cas9 for gene editing in plant cells, resulting in a 30% increase in efficiency.<br>
+                <strong>Technologies Used:</strong> CRISPR-Cas9, Bioinformatics Tools<br>
+                <strong>Outcome:</strong> Published results in a peer-reviewed journal.
+            </li>
+            <li>
+                <strong>Title:</strong> Predictive Modeling for Healthcare Outcomes<br>
+                <strong>Description:</strong> Developed a predictive model to identify at-risk patients, reducing hospital readmission rates by 15%.<br>
+                <strong>Technologies Used:</strong> Python, R, Machine Learning Algorithms<br>
+                <strong>Outcome:</strong> Implemented in a healthcare provider’s decision support system.
+            </li>
+            <li>
+                <strong>Title:</strong> E-Commerce Website Development<br>
+                <strong>Description:</strong> Designed and developed a fully responsive e-commerce website with integrated payment solutions.<br>
+                <strong>Technologies Used:</strong> HTML, CSS, JavaScript, WordPress<br>
+                <strong>Outcome:</strong> Increased client sales by 40% within the first quarter.
+            </li>
+            <li>
+                <strong>Title:</strong> Brand Identity for a Startup<br>
+                <strong>Description:</strong> Created a cohesive brand identity, including logo, typography, and packaging design for a biotech startup.<br>
+                <strong>Technologies Used:</strong> Adobe Illustrator, Photoshop<br>
+                <strong>Outcome:</strong> Helped the startup secure initial funding by presenting a professional image.
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Let’s Collaborate! Whether you’re looking for biotech expertise, data-driven insights, or a digital solution, I’d love to hear from you. Get in touch to discuss how we can work together.</p>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: <a href="kiyongastanley@gmail.com">kiyongastanley@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/kiyonga-ekai-31a453236/" target="_blank">Kiyonga's LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/KIYONGA" target="_blank">kiyonga's GitHub Profile</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 KIYONGA STANLEY EKAI. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
